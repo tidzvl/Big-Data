@@ -1,6 +1,6 @@
 services:
   broker-1:
-    image: bitnami/kafka:3.9
+    image: bitnami/kafka:latest
     ports:
       - 9092:9092
     volumes:
@@ -19,7 +19,7 @@ services:
       - kafka
 
   broker-2:
-    image: bitnami/kafka:3.9
+    image: bitnami/kafka:latest
     ports:
       - 9192:9092
     volumes:
@@ -38,7 +38,7 @@ services:
       - kafka
 
   broker-3:
-    image: bitnami/kafka:3.9
+    image: bitnami/kafka:latest
     ports:
       - 9292:9092
     volumes:
